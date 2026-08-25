@@ -15,6 +15,60 @@
                 --button-bg: #0f172a;
             }
 
+            .project-card{
+                background-color: var(--button-bg);
+                border: 1px solid var(--border-color);
+                border-radius: 12px;
+                padding:16px;
+                margin-bottom: 28px;
+                text-align: left;
+                transition: all 0.2s ease;
+            }
+
+            .project-card:hover {
+                border-color: var(--accent-glow);
+                box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+                transform: translateY(-2px);
+            }
+
+            .project-card h3{
+                font-size: 1.05rem;
+                margin-bottom: 6px;
+                color: var(--text-primary);
+            }
+
+            .project-card p{
+                font-size: 0.85rem;
+                color: var(--text-secondary);
+                margin-bottom: 12px;
+                line-height: 1.4;
+            }
+
+            .project-link{
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                font-size: 0.85rem;
+                color: var(--accent-glow);
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            .project-link span{
+                transition: transform 0.2s ease;
+            }
+
+            .project-link:hover span{
+                transform: translateX(4px);
+            }
+            
+            .theme-toogle img{
+                width: 28px;
+                height: 28px;
+                display: block;
+                object-fit: contain;
+            }
+
             * {
                 margin: 0;
                 padding: 0;
@@ -153,7 +207,7 @@
     </head>
 <body>
     <div class="card">
-        <div class="avatar">BR</div>
+    <div class="avatar">BR</div>
 
     <h1>My name is Bimal Reddy</h1>
     <p class="bio"> computer enthusiast</p>
@@ -162,6 +216,15 @@
         <span class="tag">HTML</span>    
         <span class="tag">CSS</span>
         <span class="tag">Python</span>
+    </div>
+
+    <p class="section-title">Featured Project</p>
+    <div class="project-card">
+        <h3>Webpage MarkDown Clipper</h3>
+        <p>A browser tool that seamlessly extracts webpage content and converts it into clean, formatted markdown for easy note-taking.</p>
+        <a href="https://github.com/BimalReddy/clippr-api" target="_blank" rel="noopener" class="project-link">
+            View source on GitHub <span>&rarr;</span>
+        </a>
     </div>
 
     <p class="section-title">
@@ -185,7 +248,5 @@
         </a>
         </div>
     </div>
-
-
 </body>
 </html>
