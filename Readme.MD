@@ -1,6 +1,6 @@
-## Personal Profile Page
+# Personal Profile Page
 
-A clean, modern, dark-themed personal profile page built with HTML and CSS. Features skill badges, a featured project showcase and interactive social links.
+A clean, modern, dark-themed personal profile page built with HTML and CSS. Features skill badges, projects and interactive social links.
 
 View the live hosted website here: [personal page](https://bimalreddy.github.io/Personal-Page/)
 
@@ -16,4 +16,4 @@ View the live hosted website here: [personal page](https://bimalreddy.github.io/
 @BimalReddy
 
 ## Acknowledgements:
-Standard README format structered after [DomPizzie's template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+README format structered after [DomPizzie's template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
