@@ -7,9 +7,12 @@ View the live hosted website here: [personal page](https://bimalreddy.github.io/
 ![Profile Card Screenshot](image.png)
 
 ## Features
-**Modern Dark UI**: Card layout featuring clean typography, custom CSS variables and hover animations.
-**Featured Project:** Dedicated preview section showcasing the markdown clipper.
+**Modern Dark UI**: Card layout featuring clean typography, custom CSS variables and hover animations with a stunning and stylish Black-Gold color scheme.
+
+**Featured Project:** Dedicated preview section showcasing the markdown clipper and a calculator that i had built alomg with the links to the respective GitHub Repositories.
+
 **Responsive Design:** Optimized for desktop and mobile viewing.
+
 **Zero Dependencies:** Built entirely with standard HTML and CSS without any external framework.
 
 ## Authors
