@@ -6,13 +6,13 @@
         <title> About Me - Bimal Reddy </title>
         <style>
             :root {
-                --bg-color: #0f172a;
-                --card-bg: #1e293b;
+                --bg-color: #000000;
+                --card-bg: #111111;
                 --text-primary: #f8fafc;
-                --text-secondary: #94a3b8;
-                --accent-glow: #6366f1;
-                --border-color: #334155;
-                --button-bg: #0f172a;
+                --text-secondary: #a1a1aa;
+                --accent-glow: #ffd700;
+                --border-color: #27272a;
+                --button-bg: #000000;
             }
 
             .project-card{
@@ -61,13 +61,6 @@
             .project-link:hover span{
                 transform: translateX(4px);
             }
-            
-            .theme-toogle img{
-                width: 28px;
-                height: 28px;
-                display: block;
-                object-fit: contain;
-            }
 
             * {
                 margin: 0;
@@ -91,9 +84,9 @@
                 border: 1px solid var(--border-color);
                 border-radius: 20px;
                 width: 100%;
-                max-width:400px;
+                max-width: 400px;
                 padding: 36px 28px;
-                box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+                box-shadow: 0 20px 30px rgba(255, 215, 0, 0.15);
                 text-align: center;
             }
             
@@ -102,14 +95,14 @@
                 height:88px;
                 display: flex;
                 border-radius: 50%;
-                background: linear-gradient(135deg, #6366f1, #a855f7);
+                background: linear-gradient(135deg, #ffd700, #b8860b);
                 align-items: center;
                 justify-content: center;
                 font-size: 2rem;
                 font-weight: 700;
-                color: #ffffff;
+                color: #000000;
                 margin: 0 auto 20px;
-                box-shadow: 0 0 24px rgba(99, 102, 241, 0.4);
+                box-shadow: 0 0 24px rgba(255, 215, 0, 0.4);
             }
 
             h1{
@@ -134,13 +127,13 @@
             }
 
             .tag {
-                background-color: rgba(99, 102, 241, 0.15);
-                color: #818cf8;
+                background-color: rgba(255, 215, 0, 0.15);
+                color: var(--accent-glow);
                 font-size: 0.75rem;
                 font-weight: 600;
                 padding: 4px 12px;
                 border-radius: 999px;
-                border: 1px solid rgba(99, 102, 241, 0.3)
+                border: 1px solid rgba(255, 215, 0, 0.3)
             }
 
             .section-title{
@@ -170,9 +163,9 @@
             
             .link-button:hover{
                 border-color: var(--accent-glow);
-                background-color: rgba(99, 102, 241, 0.15);
+                background-color: rgba(255, 215, 0, 0.15);
                 transform: translateY(-2px);
-                box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2)
+                box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2);
             }
 
             .link-button svg{
@@ -189,7 +182,7 @@
 
             .arrow{
                 color: var(--text-secondary);
-                transition: transform 0.2 ease;
+                transition: transform 0.2s ease;
             }
 
             .link-button:hover .arrow{
